@@ -88,6 +88,17 @@ namespace CVL3Dv23LibraryVAA
             return filteredList;
         }
 
+        public static List<string> ConcatenateWithSeparator(string str, List<string> list, string separator)
+        {
+            List<string> result = new List<string>();
+
+            foreach (var item in list)
+            {
+                result.Add(str + separator + item);
+            }
+
+            return result;
+        }
 
     }
 

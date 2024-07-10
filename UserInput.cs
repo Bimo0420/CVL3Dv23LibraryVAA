@@ -62,7 +62,7 @@ namespace CVL3Dv23LibraryVAA
             }
         }
 
-        public static string GetStringInput(Editor editor, string def, string prompt)
+        public static string GetStringInput(Editor editor, /*string def, */string prompt)
         {
             while (true) //для повторного запроса ввода от пользователя в случае некорректного ввода.
             {
